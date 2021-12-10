@@ -1,0 +1,20 @@
+{
+  "name": "aoc",
+  "version": "1.0.0",
+  "description": "Advent of Code challenges",
+  "main": "index.ts",
+  "repository": "https://github.com/hilzfa/aoc.git",
+  "author": "Fabian Hilz <fabian.hilz@t-online.de>",
+  "license": "MIT",
+  "scripts": {
+    "start:1": "tsnd --respawn src/1/index.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "ts-node-dev": "^1.1.8"
+  }
+}
