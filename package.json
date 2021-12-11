@@ -10,7 +10,8 @@
     "start:1": "tsnd --respawn src/1/index.ts",
     "start:2": "tsnd --respawn src/2/index.ts",
     "start:3": "tsnd --respawn src/3/index.ts",
-    "start:4": "tsnd --respawn src/4/index.ts"
+    "start:4": "tsnd --respawn src/4/index.ts",
+    "prettier:project": "prettier --write src/**/*.ts"
   },
   "dependencies": {
     "ts-node": "^10.4.0",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@types/node": "^16.11.12",
+    "prettier": "^2.5.1",
     "ts-node-dev": "^1.1.8"
   }
 }

@@ -64,12 +64,10 @@ bingoBoards
     //console.log(currentBingoBoard[index - 1]);
     currentBingoBoard?.rows.push([...boardValueRow]);
 
-    bingoBoardMap.set(tmpHelper, currentBingoBoard ?? {columns: [], rows: []});
+    bingoBoardMap.set(tmpHelper, currentBingoBoard ?? { columns: [], rows: [] });
   });
 
-let numberSequence: number[] = _numberSequence
-  .split(',')
-  .map((s) => parseInt(s));
+let numberSequence: number[] = _numberSequence.split(',').map((s) => parseInt(s));
 
 let isWinnerBoard = false;
 let winningBoardIndex: number = 0;
@@ -81,21 +79,13 @@ numberSequence.forEach((currentNumber: number) => {
 
   bingoBoardMap.forEach((boardValue, boardIndex) => {
     if (!isWinnerBoard) {
-      boardValue.rows.forEach((row) =>
-        row.forEach((r) => (r.status = r.status || r.n === currentNumber))
-      );
-      boardValue.columns.forEach((column) =>
-        column.forEach((c) => (c.status = c.status || c.n === currentNumber))
-      );
+      boardValue.rows.forEach((row) => row.forEach((r) => (r.status = r.status || r.n === currentNumber)));
+      boardValue.columns.forEach((column) => column.forEach((c) => (c.status = c.status || c.n === currentNumber)));
       //console.log(boardValue.rows);
 
       isWinnerBoard =
-        boardValue.rows.filter(
-          (row) => row.filter((a) => a.status).length === 5
-        ).length === 1 ||
-        boardValue.columns.filter(
-          (column) => column.filter((a) => a.status).length === 5
-        ).length === 1;
+        boardValue.rows.filter((row) => row.filter((a) => a.status).length === 5).length === 1 ||
+        boardValue.columns.filter((column) => column.filter((a) => a.status).length === 5).length === 1;
     }
 
     if (isWinnerBoard) {
