@@ -7,7 +7,10 @@
   "author": "Fabian Hilz <fabian.hilz@t-online.de>",
   "license": "MIT",
   "scripts": {
-    "start:1": "tsnd --respawn src/1/index.ts"
+    "start:1": "tsnd --respawn src/1/index.ts",
+    "start:2": "tsnd --respawn src/2/index.ts",
+    "start:3": "tsnd --respawn src/3/index.ts",
+    "start:4": "tsnd --respawn src/4/index.ts"
   },
   "dependencies": {
     "ts-node": "^10.4.0",
