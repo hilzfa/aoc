@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 
-const input = fs.readFileSync('src/2/input.txt', 'utf8');
+const input = fs.readFileSync('src/2021/2/input.txt', 'utf8');
 enum Action {
   DOWN = 'down',
   UP = 'up',

@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 
-const input = fs.readFileSync('src/3/input.txt', 'utf8');
+const input = fs.readFileSync('src/2021/3/input.txt', 'utf8');
 
 let a: string[] = input.split('\n');
 

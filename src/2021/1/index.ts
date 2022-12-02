@@ -3,7 +3,7 @@ import { readFileSync } from 'fs';
 // Enter code here
 
 const start = () => {
-  const input = readFileSync('src/1/input.txt', 'utf8');
+  const input = readFileSync('src/2021/1/input.txt', 'utf8');
 
   var a = input.split('\n');
   console.log('length before: ', a.length);

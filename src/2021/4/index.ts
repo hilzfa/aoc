@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 
-const _bingoBoards = fs.readFileSync('src/4/input.txt', 'utf8');
-const _numberSequence = fs.readFileSync('src/4/input_2.txt', 'utf8');
+const _bingoBoards = fs.readFileSync('src/2021/4/input.txt', 'utf8');
+const _numberSequence = fs.readFileSync('src/2021/4/input_2.txt', 'utf8');
 console.clear();
 console.log('--------------Day 4---------------');
 
