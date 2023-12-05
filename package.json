@@ -17,6 +17,8 @@
     "start:2022:4": "tsnd --respawn src/2022/4/index.ts",
     "start:2022:5": "tsnd --respawn src/2022/5/index.ts",
     "start:2022:6": "tsnd --respawn src/2022/6/index.ts",
+    "start:2022:7": "tsnd --respawn src/2022/7/index.ts",
+    "start:2022:8": "tsnd --respawn src/2022/8/index.ts",
     "prettier:project": "prettier --write src/**/*.ts"
   },
   "dependencies": {
