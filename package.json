@@ -7,10 +7,12 @@
   "author": "Fabian Menzel <fabian.menzel@wapp-solutions.com>",
   "license": "MIT",
   "scripts": {
+    "//": "2021",
     "start:2021:1": "tsnd --respawn src/2021/1/index.ts",
     "start:2021:2": "tsnd --respawn src/2021/2/index.ts",
     "start:2021:3": "tsnd --respawn src/2021/3/index.ts",
     "start:2021:4": "tsnd --respawn src/2021/4/index.ts",
+    "//": "2022",
     "start:2022:1": "tsnd --respawn src/2022/1/index.ts",
     "start:2022:2": "tsnd --respawn src/2022/2/index.ts",
     "start:2022:3": "tsnd --respawn src/2022/3/index.ts",
@@ -19,6 +21,10 @@
     "start:2022:6": "tsnd --respawn src/2022/6/index.ts",
     "start:2022:7": "tsnd --respawn src/2022/7/index.ts",
     "start:2022:8": "tsnd --respawn src/2022/8/index.ts",
+    "//": "2023",
+    "start:2023:1": "tsnd --respawn src/2023/1/index.ts",
+    "start:2023:2": "tsnd --respawn src/2023/2/index.ts",
+
     "prettier:project": "prettier --write src/**/*.ts"
   },
   "dependencies": {
